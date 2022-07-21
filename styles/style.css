@@ -177,3 +177,153 @@ footer ul:nth-child(4) li a {
 .index-footer ul:nth-child(4) li a {
     color: rgb(176, 182, 236);
 }
+
+/*------------------------------------------
+   Responsive design for Small device index and website2 
+------------------------------------------ */
+@media screen and (max-width:688px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .half-width {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 10px 0;
+    }
+
+    .half-width h1 {
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .half-width p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .halfwidth img {
+        width: 284px;
+    }
+
+    /* section-2 */
+    .flex-container {
+        flex-direction: column;
+        margin: 50px 0 50px 0;
+        align-items: center;
+    }
+
+    .form {
+        background: none;
+    }
+
+    .link-button {
+        border: 1px solid #242121;
+    }
+
+    .transfer-player {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* -------footer style--------- */
+    footer {
+        padding: 20px 15px 20px 15px;
+    }
+
+    footer ul:nth-child(3) {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    footer ul:nth-child(4) {
+        padding: 0;
+    }
+
+    footer ul:nth-child(4) li {
+        background: #0e0d0d;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .index-footer ul:nth-child(4) li a {
+        font-size: 15px;
+        line-height: 30px;
+        color: rgb(176, 182, 236);
+    }
+
+}
+
+/*------------------------------------------
+   Responsive design for medium device index and website2 
+------------------------------------------ */
+@media screen and (min-width:688px) and (max-width: 992px) {
+
+    .container {
+        height: 360px;
+        padding: 20px 20px 0 50px;
+    }
+
+    .half-width h1 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0;
+    }
+
+    .half-width p {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        margin-bottom: 50px;
+    }
+
+    .halfwidth img {
+        width: 346px;
+    }
+
+    /* section-2 */
+    .flex-container {
+        flex-direction: column;
+        margin: 50px 0 50px 0;
+    }
+
+    .form {
+        background: none;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .link-button {
+        border: 1px solid black;
+    }
+
+    .transfer-player {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tranfer-container {
+        width: auto;
+    }
+
+    footer {
+        padding: 30px 130px 30px 130px;
+    }
+
+    footer :nth-child(3) {
+        flex-wrap: wrap;
+    }
+}
