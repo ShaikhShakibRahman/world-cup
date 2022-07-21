@@ -6,6 +6,7 @@ body {
 
 }
 
+/* <!--------------- section-1 style--------------------> */
 body h1 {
     font-size: 30px;
 }
@@ -122,10 +123,6 @@ body h1 {
 /* -------------------footer style 
 ------------------------------------------------*/
 
-
-
-
-/* --------footer style -------- */
 footer {
     padding: 130px 130px 130px 130px;
     background: rgb(176, 182, 236);
@@ -320,6 +317,7 @@ footer ul:nth-child(4) li a {
         width: auto;
     }
 
+    /* footer style */
     footer {
         padding: 30px 130px 30px 130px;
     }
