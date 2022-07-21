@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    width: 1350px;
+    height: 1600px;
+
+}
+
+body h1 {
+    font-size: 30px;
+}
+
+.container {
+    background-color: rgb(176, 182, 236);
+    height: 490px;
+    width: 1321px;
+    border-radius: 50px;
+    display: flex;
+    margin-left: 125px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+/* ---------------section-2 style--------- */
+.container-2 {
+    width: 336px;
+    height: 350px;
+    background-color: rgb(176, 182, 236);
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    grid-row-gap: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+.add-photo img {
+    width: 312px;
+    height: 175px;
+
+}
+
+.add-icon {
+    display: flex;
+
+
+}
+
+.tranfer-text {
+    font-size: 12px;
+}
+
+.transfer-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-top: 50px;
+    margin-left: 7%;
+
+}
+
+.tranfer-container {
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 125px;
+}
+
+/* -----------------website-2 style------------------ */
+.flag-flex {
+    display: flex;
+
+}
+
+.flag-flex img {
+    width: 100%;
+}
+
+.flag-border {
+    border: 1px solid rgb(218, 211, 211);
+}
+
+/* website 3---------all-group----------- */
+#grpa {
+    border: 1px solid black;
+}
+
+#grpb {
+    border: 1px solid black;
+}
+
+#grpc {
+    border: 1px solid black;
+}
+
+/* -------------------footer style 
+------------------------------------------------*/
+
+
+
+
+/* --------footer style -------- */
+footer {
+    padding: 130px 130px 130px 130px;
+    background: rgb(176, 182, 236);
+    width: 1350px;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+}
+
+footer hr {
+    border-top: 1px solid #0e0d0d;
+    opacity: .2;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #0e0d0d;
+}
+
+footer ul:nth-child(4) li {
+    background: #0e0d0d;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+footer ul:nth-child(4) li a {
+    font-size: 30px;
+    line-height: 50px;
+    color: rgb(176, 182, 236);
+}
+
+.index-footer ul:nth-child(4) li a {
+    color: rgb(176, 182, 236);
+}
